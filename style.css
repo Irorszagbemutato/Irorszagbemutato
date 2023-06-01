@@ -1,6 +1,7 @@
 body{
     background-image: url(kepek/irzaszlo.png);
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 main{
@@ -44,4 +45,12 @@ div.card img{
     margin: auto;
     position: relative;
     top: 10px;
+}
+
+#kotelezo{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
 }
